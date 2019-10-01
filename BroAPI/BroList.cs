@@ -4,8 +4,14 @@ namespace BroAPI
 {
     public class BroList
     {
-        public List<string> BroNames { get; set; }  
+        public List<string> BroNames { get; set; }
 
-        BroNames.Add
+        public BroList()
+        {
+            BroNames.Add("Broseph Conrad");
+            BroNames.Add("Coleen Brolan");
+            BroNames.Add("Alan Bromax");
+            BroNames.Add("Brodo de Conteville");     
+        }
     }
 }
