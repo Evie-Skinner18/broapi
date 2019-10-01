@@ -4,6 +4,8 @@ namespace BroAPI
 {
     public class BroList
     {
-        public List<string> BroNames { get; set; }
+        public List<string> BroNames { get; set; }  
+
+        BroNames.Add
     }
 }
